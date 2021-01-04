@@ -1,0 +1,75 @@
+html{
+   background: cover;
+    font-size: 40px;
+}
+
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.selections {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 0;
+}
+
+.button {
+    border: 4px solid black;
+    border-radius: 12px;
+    margin: 4px;
+    padding: 10px 20px;
+    width: 4rem;
+    text-align: center;
+    background: burlywood;
+}
+
+.name {
+    color: black;
+    font-size: 40px;
+}
+
+.result {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+#choices{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+.choice{
+    padding: 60px;
+}
+
+.statsSection {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.stat {
+    border: 4px solid black;
+    border-radius: 12px;
+    margin: 4px;
+    padding: 10px 0px 10px 10px;
+    width: 4rem;
+    text-align: left;
+    background: burlywood;
+}
+
+ #computerStat {
+    padding-right: 80px;
+    margin-left: 20px;
+}
+
